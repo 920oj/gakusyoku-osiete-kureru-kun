@@ -1,0 +1,27 @@
+{
+  "name": "gakusyoku-oshiete-kureru-kun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "axios-cookiejar-support": "^1.0.1",
+    "dayjs": "^1.10.6",
+    "dotenv": "^10.0.0",
+    "iconv-lite": "^0.6.3",
+    "jsdom": "^16.6.0",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^10.1.0",
+    "querystring": "^0.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  }
+}
