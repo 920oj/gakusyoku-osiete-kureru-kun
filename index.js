@@ -96,7 +96,7 @@ const main = async () => {
   }
   uploadTxt += uploadResult.data.data.link;
 
-  // 8. Discordに投稿する
+  // 9. Discordに投稿する
   await axios.post(DISCORD_WEBHOOK, { content: uploadTxt }).catch((e) => {
     console.log('エラー: Discordに送信中にエラーが発生しました。');
     console.log(e);
